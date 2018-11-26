@@ -1,0 +1,19 @@
+---
+title: "November 26, 2018"
+author:
+date: 
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaflet)
+```
+
+```{r cars, echo=FALSE}
+leaflet() %>% 
+    setView(lng = -78.570625, lat = -0.1865938, zoom = 11) %>% 
+    addTiles()
+
+```
+
